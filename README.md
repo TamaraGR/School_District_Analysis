@@ -1,7 +1,9 @@
 # School_District_Analysis
 
 ## Summary 
-In this repository you can see a comparative analysis of the School district academic performance indicators in math and reading. The analysis at first looks at all schools and grades for high schools across the disctirct. At a later note we were informed that grades for Thomas High for math and reading for the ninth grades might have been compromised, and therefore we are asked to remove those grades and replace them with NaN. Afterwards we are performing the analysis across all indicators again, but this time without the Thomas High ninth graders. And here in this written analysis we are comparing the initial analysis with the second one. The removal of Thomas High nineth graders has impacted the ratings and percentages for that partocular school, but hasn't affected the district level analysis as much. 
+In this repository you can see a comparative analysis of the School district academic performance indicators in math and reading. The analysis at first looks at all schools and grades for high schools across the disctirct. At a later note we were informed that grades for Thomas High for math and reading for the ninth grades might have been compromised, and therefore we are asked to remove those grades and replace them with NaN. Afterwards we are performing the analysis across all indicators again, but this time without the Thomas High ninth graders. And here in this written analysis we are comparing the initial analysis with the second one. The removal of Thomas High nineth graders has impacted the ratings and percentages for that partocular school, but hasn't affected the district level analysis as much. The image below depics a brief overview of schools that we will be looking into. 
+
+![overall](https://github.com/TamaraGR/School_District_Analysis/blob/main/overall.jpg)
 
 ## Resources 
 
@@ -31,7 +33,15 @@ Compared to the initial district summary, the one performed after removing Thoma
 
 ### How is the school summary affected?
 
-Other schools' summaries weren't affected, therefore we are focusing on Thomas High here. 
+Other schools' summaries weren't affected, therefore we are focusing on Thomas High here. Thomas High's summary was affected, as you can see from the images below. 
+
+*Thomas High Summary before removing the nineth graders*
+
+![THS_before](https://github.com/TamaraGR/School_District_Analysis/blob/main/THS_before.jpg)
+
+*Thomas High Summary after removing the nineth graders*
+
+![THS_after](https://github.com/TamaraGR/School_District_Analysis/blob/main/THS_after.jpg)
 
 
 
