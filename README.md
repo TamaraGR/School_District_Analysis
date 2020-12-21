@@ -86,11 +86,11 @@ Thomas High School is a medium-size school, so we are looking at the changes tha
 
 *Before the Change*
 
-![size1]()
+![size1](https://github.com/TamaraGR/School_District_Analysis/blob/main/size1.jpg)
 
 *After the Change*
 
-![size2]()
+![size2](https://github.com/TamaraGR/School_District_Analysis/blob/main/size2.jpg)
 
 - [ ] *Scores by school type*
 
@@ -98,11 +98,11 @@ Thomas High School is a Charter school. The changes based on school type are min
 
 *Before the Change*
 
-![change1]()
+![change1](https://github.com/TamaraGR/School_District_Analysis/blob/main/change1.jpg)
 
 *After the Change*
 
-![change2]()
+![chnage2](https://github.com/TamaraGR/School_District_Analysis/blob/main/chnage2.jpg)
 
 ## Analysis Conclusion 
 
