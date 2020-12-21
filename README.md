@@ -64,7 +64,7 @@ However, it must be noted, that if we remove the ninth graders at Thomas High co
 
 As mentioned earleir, the replacing of the ninth grade scores doesn't affect the math and reading scores by grade. The only change that happens is that the Thomas High ninth grade scores show as NaN. 
 
--[ ] *Scores by school spending*
+- [ ] Scores by school spending
 
 Below is an image that shows all the schools of the district and where they are in terms of the spending bins, including Thomas High. 
 
@@ -81,4 +81,33 @@ And if you look at the screenshots below, you will notice that the changes are m
 ![after_correction](https://github.com/TamaraGR/School_District_Analysis/blob/main/before_correction.jpg)
 
 - [ ] *Scores by school size*
-- [] *Scores by school type*
+
+Thomas High School is a medium-size school, so we are looking at the changes that happened to the medium-size schools. The changes are minimail, please refer to the images below. 
+
+*Before the Change*
+
+![size1]()
+
+*After the Change*
+
+![size2]()
+
+- [ ] *Scores by school type*
+
+Thomas High School is a Charter school. The changes based on school type are minimal as well, please see the images below. 
+
+*Before the Change*
+
+![change1]()
+
+*After the Change*
+
+![change2]()
+
+## Analysis Conclusion 
+
+The analysis has shown that removing the ninth graders's scores at Thomas High with NaNs didn't result in drastic changes mostly. However, the school analysis has revealed some of the other interesting data about performance. Some of the findings about schools' performance are below: 
+
+- [x] Schools' performace doesn't usually depend on the funding.
+- [x] Schools' performance can depend on the size. Smaller schools tend to perform better. 
+- [x] Charter schools perform better. 
