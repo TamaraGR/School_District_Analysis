@@ -1,7 +1,7 @@
 # School_District_Analysis
 
 ## Summary 
-In this repository you can see a comparative analysis of the School district academic performance indicators in math and reading. The analysis at first looks at all schools and grades for high schools across the disctirct. At a later note we were informed that grades for Thomas High for math and reading for the ninth grades might have been compromised, and therefore we are asked to remove those grades and replace them with NaN. Afterwards we are performing the analysis across all indicators again, but this time without the Thomas High ninth graders. And here in this written analysis we are comparing the initial analysis with the second one. The removal of Thomas High nineth graders has impacted the ratings and percentages for that partocular school, but hasn't affected the district level analysis as much. The image below depics a brief overview of schools that we will be looking into. 
+In this repository you can see a comparative analysis of the School district academic performance indicators in math and reading. The analysis at first looks at all schools and grades for high schools across the disctirct. At a later note we were informed that grades for Thomas High for math and reading for the ninth grades might have been compromised, and therefore we are asked to remove those grades and replace them with NaN. Afterwards we are performing the analysis across all indicators again, but this time without the Thomas High ninth graders. And here in this written analysis we are comparing the initial analysis with the second one. The removal of Thomas High ninth graders has impacted the ratings and percentages for that partocular school, but hasn't affected the district level analysis as much. The image below depics a brief overview of schools that we will be looking into. 
 
 ![overall](https://github.com/TamaraGR/School_District_Analysis/blob/main/overall.jpg)
 
@@ -23,7 +23,7 @@ The district summary wasn't affected as much, because there are many schools and
 *District Summary after Removing 9th Graders at Thomas High*
 ![District_Second](https://github.com/TamaraGR/School_District_Analysis/blob/main/Distrcit_Second.jpg)
 
-Compared to the initial district summary, the one performed after removing Thomas High's nineth graders changed in the following way: 
+Compared to the initial district summary, the one performed after removing Thomas High's ninth graders changed in the following way: 
 
 - [x] Average math scores dropped from 79% to 78.9%. 
 - [x] Average reading scores remained the same. 
@@ -35,11 +35,11 @@ Compared to the initial district summary, the one performed after removing Thoma
 
 Other schools' summaries weren't affected, and the summary of the grade levels wasn't affected either, therefore we are focusing on Thomas High. Thomas High's summary was affected, as you can see from the images below. 
 
-*Thomas High Summary before removing the nineth graders*
+*Thomas High Summary before removing the ninth graders*
 
 ![THS_before](https://github.com/TamaraGR/School_District_Analysis/blob/main/THS_before.jpg)
 
-*Thomas High Summary after removing the nineth graders*
+*Thomas High Summary after removing the ninth graders*
 
 ![THS_after](https://github.com/TamaraGR/School_District_Analysis/blob/main/THS_after.jpg)
 
@@ -47,18 +47,38 @@ As you can see from the images, after removing the 9th graders, the average math
 
 ### How does replacing the ninth graders’ math and reading scores affect Thomas High School’s performance relative to the other schools?
 
-Thomas High School's performance in comparison to other schools doesn't change much because of replacing nineth graders' grades with NaN when it comes to the grade by grade performance. The only change that occures is related to the nineth graders' grades being removed and replaced with NaN. However, if we measure by the percentages of passing math, reading and, most, importantly, the overall passing percentage, Thomas High in the beginning ranks as number two school in the dictrict because its overall passing score is above 90%, and after the removal of the nineth graders' grades, this school's overall passing drops significantly, and so does its rating. Please refer to the images of the top schools before and after below. 
+Thomas High School's performance in comparison to other schools doesn't change much because of replacing ninth graders' grades with NaN when it comes to the grade by grade performance. The only change that occures is related to the ninth graders' grades being removed and replaced with NaN. However, if we measure by the percentages of passing math, reading and, most, importantly, the overall passing percentage, Thomas High in the beginning ranks as number two school in the dictrict because its overall passing score is above 90%, and after the removal of the ninth graders' grades, this school's overall passing drops significantly, and so does its rating. Please refer to the images of the top schools before and after below. 
 
-*Top Schools Before Nineth Graders Removal*
+*Top Schools Before Ninth Graders Removal*
 
 ![top1](https://github.com/TamaraGR/School_District_Analysis/blob/main/top1.jpg)
 
-*Top Schools After Nineth Graders Removal*
+*Top Schools After Ninth Graders Removal*
 
 ![top2](https://github.com/TamaraGR/School_District_Analysis/blob/main/top2.jpg)
 
-- [x] How does replacing the ninth-grade scores affect the following:
-*Math and reading scores by grade*
-*Scores by school spending*
-*Scores by school size*
-*Scores by school type*
+However, it must be noted, that if we remove the ninth graders at Thomas High completely, this school's ratings will not drop so drastically, and we would still see Thomas High in the top five schools of the district. Therefore, it is up to the board how to decide regarding the school's performance. 
+
+### How does replacing the ninth-grade scores affect the following:
+- [ ] Math and reading scores by grade
+
+As mentioned earleir, the replacing of the ninth grade scores doesn't affect the math and reading scores by grade. The only change that happens is that the Thomas High ninth grade scores show as NaN. 
+
+-[ ] *Scores by school spending*
+
+Below is an image that shows all the schools of the district and where they are in terms of the spending bins, including Thomas High. 
+
+![ths_spending](https://github.com/TamaraGR/School_District_Analysis/blob/main/ths_spending.jpg)
+
+And if you look at the screenshots below, you will notice that the changes are minimal for Thomas High after the correction. 
+
+*Spending Bins Before the Correction*
+
+![before_correction](https://github.com/TamaraGR/School_District_Analysis/blob/main/before_correction.jpg)
+
+*Spending Bins After the Correction*
+
+![after_correction](https://github.com/TamaraGR/School_District_Analysis/blob/main/before_correction.jpg)
+
+- [ ] *Scores by school size*
+- [] *Scores by school type*
